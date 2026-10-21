@@ -24,10 +24,10 @@ FIELDS = [
     ("Study", "Computer Science @ UNIFE"),
     ("OS", "Unraid"),
     ("Network", "UniFi, Tailscale, Pangolin tunnel on a VPS"),
+    ("Smart home", "Home Assistant, Zigbee2MQTT, ESPHome, Frigate"),
     ("Cloud", "Nextcloud + Collabora"),
     ("Photos", "Immich"),
     ("Passwords", "Vaultwarden"),
-    ("Smart home", "Home Assistant, Zigbee2MQTT, ESPHome, Frigate"),
     ("Media", "Plex, Jellyfin"),
     ("Status", "open to opportunities"),
 ]
@@ -37,9 +37,9 @@ ABOUT = ("I'm a tech enthusiast: if there's a new technology around, I want to t
          "small tools, and fixes I send back to the open-source projects I run.")
 
 INTERESTS = [
-    ("tech", "open source · Linux · Android"),
+    ("tech", "computers · open source · Linux · Android"),
     ("homelab", "self-hosting · networking · home automation"),
-    ("free time", "sci-fi · movies & TV · gaming"),
+    ("free time", "movies & TV · sci-fi · gaming"),
 ]
 
 LOGO = json.loads(ASCII_JSON.read_text(encoding="utf-8"))
