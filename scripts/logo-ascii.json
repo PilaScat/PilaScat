@@ -1,0 +1,86 @@
+[
+ {
+  "chars": "            =+.                         ",
+  "kinds": "            ppp                         "
+ },
+ {
+  "chars": "           -@@#=                        ",
+  "kinds": "           ppppp                        "
+ },
+ {
+  "chars": "         .*@@@@@@*-                     ",
+  "kinds": "         pppppppppp                     "
+ },
+ {
+  "chars": "        =@@@@@@@@@@@*-                  ",
+  "kinds": "        pppppppppppppp                  "
+ },
+ {
+  "chars": "      :#@@@@@+.=#@@@@@@*-               ",
+  "kinds": "      ppppppppppppppppppp               "
+ },
+ {
+  "chars": "     +@@@@@%:    .=#@@@@@@*-            ",
+  "kinds": "     pppppppp    ppppppppppp            "
+ },
+ {
+  "chars": "   -%@@@@@*     .-+#@@@@@@@#+:          ",
+  "kinds": "   pppppppp     ppppppppppppss          "
+ },
+ {
+  "chars": ".=%@@@@@@@+.:+*%@@@@@@@%***%%-          ",
+  "kinds": "ppppppppppppppppppppppppssssss          "
+ },
+ {
+  "chars": "-*@@@@@@@@@@@@@@@@@@**#%@@@@#           ",
+  "kinds": "pppppppppppppppppppppssssssss           "
+ },
+ {
+  "chars": "  -#@@@@@@@@@@@@@@*+@@@@@@@#=           ",
+  "kinds": "  pppppppppppppppppssssssssss           "
+ },
+ {
+  "chars": "    +@@@@@@@@@@@@@**@@@@@@@@#*+=-.      ",
+  "kinds": "    pppppppppppppppsssssssssssssss      "
+ },
+ {
+  "chars": "     -@@@@@@@@@@@@+#@@@@@@@@@@@@@@@%#*= ",
+  "kinds": "     ppppppppppppppssssssssssssssssssss "
+ },
+ {
+  "chars": "      :%@@@@@@@@@@+%@@@@@@@@@@@@@@@@@@@ ",
+  "kinds": "      pppppppppppppssssssssssssssssssss "
+ },
+ {
+  "chars": "        *@@@@@@@@@+-=*%@@@@@@@@@@@@@@@@-",
+  "kinds": "        pppppppppppsssssssssssssssssssss"
+ },
+ {
+  "chars": "         =@@@@@@@@+     :+%%@@@@@@@@@@@*",
+  "kinds": "         pppppppppp     ssssssssssssssss"
+ },
+ {
+  "chars": "          :%@@@@@@=     -@%#@@@@@@@@@@#=",
+  "kinds": "          ppppppppp     ssssssssssssssss"
+ },
+ {
+  "chars": "           .#@@@@@-    =%#@@@@@@@@%+-   ",
+  "kinds": "           pppppppp    ssssssssssssss   "
+ },
+ {
+  "chars": "             +@@@@-   +#%@@@@@%*-.      ",
+  "kinds": "             pppppp   ssssssssssss      "
+ },
+ {
+  "chars": "              -%@@-  +#@@@@*=:          ",
+  "kinds": "              ppppp  sssssssss          "
+ },
+ {
+  "chars": "               .#@- +%@#+:              ",
+  "kinds": "               pppp ssssss              "
+ },
+ {
+  "chars": "                 +:=+-                  ",
+  "kinds": "                 pssss                  "
+ }
+]
