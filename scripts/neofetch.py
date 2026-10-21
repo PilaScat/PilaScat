@@ -32,7 +32,7 @@ FIELDS = [
     ("Status", "open to opportunities"),
 ]
 
-ABOUT = ("I'm a tech enthusiast: if there's a new technology around, I want to try it. "
+ABOUT = ("I'm a curious tech enthusiast, always eager to try something new. "
          "Pretty much everything I use day to day runs on my homelab, and that's where my code comes from too: "
          "small tools, and fixes I send back to the open-source projects I run.")
 
