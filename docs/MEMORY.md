@@ -1,7 +1,7 @@
 # Profilo GitHub: come è fatto e come si aggiorna
 
 Il repo `PilaScat/PilaScat` è il README del profilo GitHub. Tutto quello che si vede sta in
-[`README.md`](../README.md), tranne il terminale (`assets/neofetch.svg`) e il serpente.
+[`README.md`](../README.md), tranne il terminale (`assets/neofetch.svg`) e le immagini del ramo `output`.
 
 ## Regole del contenuto
 
@@ -34,15 +34,21 @@ node scripts/logo2ascii.mjs scripts/logo.svg scripts/logo-ascii.json 40 0.5
 
 I primi tre path del logo sono la S (viola), gli altri la P e le schegge (magenta).
 
-## Il serpente
+## Il ramo output
 
-`.github/workflows/snake.yml` genera `github-snake-dark.svg` ogni notte alle 03:00 UTC e lo
-pubblica sul ramo `output`; parte anche a mano (`workflow_dispatch`).
+`.github/workflows/profile-cards.yml` genera ogni notte alle 03:00 UTC il serpente
+(`github-snake-dark.svg`) e le card di github-readme-stats (`github-stats.svg`,
+`github-top-langs.svg`) e li pubblica sul ramo `output`; parte anche a mano
+(`workflow_dispatch`). Il publish sostituisce tutto il ramo con `dist/`: un'immagine nuova si
+genera nello stesso job, non in un altro workflow, o i due si cancellano a vicenda. Se una card
+non si genera il job fallisce e su `output` resta la versione del giorno prima.
 
 ## Servizi esterni, cose da sapere
 
-- **github-readme-stats** (istanza pubblica): `include_all_commits=true` la manda in
-  "Something went wrong!", quindi non si usa.
+- **github-readme-stats**: l'istanza pubblica è in pausa (503 `DEPLOYMENT_PAUSED`, visto il
+  6/11/2026), quindi le card le genera l'Action `stats-organization/github-readme-stats-action`
+  col `GITHUB_TOKEN`, che conta solo i repo pubblici. `include_all_commits=true` mandava
+  l'istanza pubblica in "Something went wrong!", quindi non si usa.
 - **github-readme-activity-graph**: l'istanza pubblica è disattivata (402).
 - **simple-icons** non ha più Azure, AWS, LinkedIn né C#: per AWS, C# e LinkedIn il logo dei
   badge è l'icona di skillicons.dev in base64 nel parametro `logo`.
