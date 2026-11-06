@@ -44,8 +44,8 @@
 ## GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=PilaScat&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&title_color=FF2E97&icon_color=BB9AF7&ring_color=FF2E97" height="165" alt="GitHub stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PilaScat&layout=compact&langs_count=8&hide_border=true&theme=tokyonight&title_color=FF2E97" height="165" alt="Most used languages">
+  <img src="https://raw.githubusercontent.com/PilaScat/PilaScat/output/github-stats.svg" height="165" alt="GitHub stats">
+  <img src="https://raw.githubusercontent.com/PilaScat/PilaScat/output/github-top-langs.svg" height="165" alt="Most used languages">
   <br>
   <img src="https://streak-stats.demolab.com?user=PilaScat&hide_border=true&theme=tokyonight&ring=FF2E97&fire=FF2E97&currStreakLabel=FF2E97" alt="GitHub streak">
   <br>
